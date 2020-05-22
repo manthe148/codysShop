@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace CodysShop
 {
-    public partial class BullPitRunning : Form
+    public partial class WreckerReview : Form
     {
-        public BullPitRunning()
+        public WreckerReview()
         {
             InitializeComponent();
-        }
-
-        private void BtnClose_Click(object sender, EventArgs e)
-        {
-            this.Close();
         }
     }
 }

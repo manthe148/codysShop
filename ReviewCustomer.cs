@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -34,6 +35,21 @@ namespace CodysShop
         {
             // TODO: This line of code loads data into the 'shopDataSet.Customers' table. You can move, or remove it, as needed.
             this.customersTableAdapter.Fill(this.shopDataSet.Customers);
+            Cursor.Current = Cursors.WaitCursor;
+            using (ShopEntities db = new ShopEntities())
+            {
+                List<Customer> list = db.Customers.ToList();
+                foreach (Customer c in list)
+                {
+                    ListViewItem item = new ListViewItem(c.CustomerID.ToString());
+                    item.SubItems.Add(c.FirstName);
+                    item.SubItems.Add(c.LastName);
+                    item.SubItems.Add(c.Phone.ToString());
+                    item.SubItems.Add(c.Make);
+                    item.SubItems.Add(c.Model);
+                    listView1.Items.Add(item);
+                }
+            }
 
         }
 
@@ -53,6 +69,39 @@ namespace CodysShop
         private void BtnClose_Click_1(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private async void listView1_ItemActivate(object sender, EventArgs e)
+        {
+            if (listView1.SelectedItems.Count >0)
+            {
+                ListViewItem item = listView1.SelectedItems[0];
+                using(ShopEntities db = new ShopEntities())
+                {
+                    string customerId = item.SubItems[0].Text;
+                    Customer c = await db.Customers.FindAsync(Convert.ToInt32(customerId));
+                    if (c != null)
+                    {
+                        using (CustomerReviewSmall crs = new CustomerReviewSmall(c))
+                        {
+                            if (crs.ShowDialog() == DialogResult.OK)
+                            {
+                                //Process
+                            }
+                        }
+                    }
+                }
+            }
         }
     }   
 }

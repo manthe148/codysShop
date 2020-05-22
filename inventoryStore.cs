@@ -21,5 +21,20 @@ namespace CodysShop
         {
             this.Close();
         }
+
+        private void shopInventoryBindingNavigatorSaveItem_Click(object sender, EventArgs e)
+        {
+            this.Validate();
+            this.shopInventoryBindingSource.EndEdit();
+            this.tableAdapterManager.UpdateAll(this.shopInventory);
+
+        }
+
+        private void inventoryStore_Load(object sender, EventArgs e)
+        {
+            // TODO: This line of code loads data into the 'shopInventory._ShopInventory' table. You can move, or remove it, as needed.
+            this.shopInventoryTableAdapter.Fill(this.shopInventory._ShopInventory);
+
+        }
     }
 }

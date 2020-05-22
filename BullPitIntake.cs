@@ -21,5 +21,58 @@ namespace CodysShop
         {
             this.Close();
         }
+
+        private void wrekerIntakeBindingNavigatorSaveItem_Click(object sender, EventArgs e)
+        {
+            this.Validate();
+            this.wrekerIntakeBindingSource.EndEdit();
+            this.tableAdapterManager.UpdateAll(this.shopDataSet1);
+
+        }
+
+        private void BullPitIntake_Load(object sender, EventArgs e)
+        {
+            // TODO: This line of code loads data into the 'shopDataSet.Customers' table. You can move, or remove it, as needed.
+            this.customersTableAdapter.Fill(this.shopDataSet.Customers);
+            // TODO: This line of code loads data into the 'shopDataSet1.WrekerIntake' table. You can move, or remove it, as needed.
+            this.wrekerIntakeTableAdapter.Fill(this.shopDataSet1.WrekerIntake);
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.wrekerIntakeBindingSource.EndEdit();
+            this.wrekerIntakeTableAdapter.Update(this.shopDataSet1);
+            this.wrekerIntakeBindingSource.AddNew();
+            try
+            {
+               // this.wrekerIntakeBindingSource.EndEdit();
+               // this.wrekerIntakeTableAdapter.Update(this.shopDataSet1);
+               // this.wrekerIntakeBindingSource.AddNew();
+               // MessageBox.Show("entered");
+
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+
+        }
+
+        private void partsCheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void partsCheckBox_CheckStateChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void partsComboBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

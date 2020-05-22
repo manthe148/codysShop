@@ -93,15 +93,10 @@ namespace CodysShop
 
         private void BtnRunning_Click(object sender, EventArgs e)
         {
-            openChildForm(new BullPitRunning());
+            openChildForm(new BullPitPartInventory());
             HideSubMenu();
         }
 
-        private void BtnWrecked_Click(object sender, EventArgs e)
-        {
-            openChildForm(new BullPitWrecked());
-            HideSubMenu();
-        }
         #endregion
 
         #region
@@ -129,6 +124,7 @@ namespace CodysShop
         }
 
         #endregion
+
         private Form activeForm = null;
         private void openChildForm(Form childForm)
         {

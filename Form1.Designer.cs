@@ -29,15 +29,14 @@
         private void InitializeComponent()
         {
             this.SubMenu = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.BtnHelp = new System.Windows.Forms.Button();
             this.panelInventorySubMenu = new System.Windows.Forms.Panel();
             this.button12 = new System.Windows.Forms.Button();
             this.BtnParts = new System.Windows.Forms.Button();
             this.BtnInventoryStore = new System.Windows.Forms.Button();
             this.BtnInventory = new System.Windows.Forms.Button();
             this.panelBullPitSubMenu = new System.Windows.Forms.Panel();
-            this.BtnWrecked = new System.Windows.Forms.Button();
-            this.BtnRunning = new System.Windows.Forms.Button();
+            this.BtnBullPitPartsInventory = new System.Windows.Forms.Button();
             this.BtnIntake = new System.Windows.Forms.Button();
             this.BtnBullPit = new System.Windows.Forms.Button();
             this.panelCustomerSubMenu = new System.Windows.Forms.Panel();
@@ -47,6 +46,7 @@
             this.BtnCustomers = new System.Windows.Forms.Button();
             this.panelLogo = new System.Windows.Forms.Panel();
             this.panelChildForm = new System.Windows.Forms.Panel();
+            this.BtnBullPitTotaledInventory = new System.Windows.Forms.Button();
             this.SubMenu.SuspendLayout();
             this.panelInventorySubMenu.SuspendLayout();
             this.panelBullPitSubMenu.SuspendLayout();
@@ -57,7 +57,7 @@
             // 
             this.SubMenu.AutoScroll = true;
             this.SubMenu.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.SubMenu.Controls.Add(this.button1);
+            this.SubMenu.Controls.Add(this.BtnHelp);
             this.SubMenu.Controls.Add(this.panelInventorySubMenu);
             this.SubMenu.Controls.Add(this.BtnInventory);
             this.SubMenu.Controls.Add(this.panelBullPitSubMenu);
@@ -71,15 +71,15 @@
             this.SubMenu.Size = new System.Drawing.Size(200, 617);
             this.SubMenu.TabIndex = 0;
             // 
-            // button1
+            // BtnHelp
             // 
-            this.button1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button1.Location = new System.Drawing.Point(0, 568);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(200, 45);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.BtnHelp.Dock = System.Windows.Forms.DockStyle.Top;
+            this.BtnHelp.Location = new System.Drawing.Point(0, 567);
+            this.BtnHelp.Name = "BtnHelp";
+            this.BtnHelp.Size = new System.Drawing.Size(200, 45);
+            this.BtnHelp.TabIndex = 0;
+            this.BtnHelp.Text = "HELP";
+            this.BtnHelp.UseVisualStyleBackColor = true;
             // 
             // panelInventorySubMenu
             // 
@@ -87,7 +87,7 @@
             this.panelInventorySubMenu.Controls.Add(this.BtnParts);
             this.panelInventorySubMenu.Controls.Add(this.BtnInventoryStore);
             this.panelInventorySubMenu.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelInventorySubMenu.Location = new System.Drawing.Point(0, 443);
+            this.panelInventorySubMenu.Location = new System.Drawing.Point(0, 442);
             this.panelInventorySubMenu.Name = "panelInventorySubMenu";
             this.panelInventorySubMenu.Size = new System.Drawing.Size(200, 125);
             this.panelInventorySubMenu.TabIndex = 6;
@@ -133,7 +133,7 @@
             this.BtnInventory.Dock = System.Windows.Forms.DockStyle.Top;
             this.BtnInventory.FlatAppearance.BorderSize = 0;
             this.BtnInventory.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnInventory.Location = new System.Drawing.Point(0, 398);
+            this.BtnInventory.Location = new System.Drawing.Point(0, 397);
             this.BtnInventory.Name = "BtnInventory";
             this.BtnInventory.Size = new System.Drawing.Size(200, 45);
             this.BtnInventory.TabIndex = 5;
@@ -143,38 +143,26 @@
             // 
             // panelBullPitSubMenu
             // 
-            this.panelBullPitSubMenu.Controls.Add(this.BtnWrecked);
-            this.panelBullPitSubMenu.Controls.Add(this.BtnRunning);
+            this.panelBullPitSubMenu.Controls.Add(this.BtnBullPitTotaledInventory);
+            this.panelBullPitSubMenu.Controls.Add(this.BtnBullPitPartsInventory);
             this.panelBullPitSubMenu.Controls.Add(this.BtnIntake);
             this.panelBullPitSubMenu.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelBullPitSubMenu.Location = new System.Drawing.Point(0, 273);
             this.panelBullPitSubMenu.Name = "panelBullPitSubMenu";
-            this.panelBullPitSubMenu.Size = new System.Drawing.Size(200, 125);
+            this.panelBullPitSubMenu.Size = new System.Drawing.Size(200, 124);
             this.panelBullPitSubMenu.TabIndex = 4;
             // 
-            // BtnWrecked
+            // BtnBullPitPartsInventory
             // 
-            this.BtnWrecked.Dock = System.Windows.Forms.DockStyle.Top;
-            this.BtnWrecked.Location = new System.Drawing.Point(0, 80);
-            this.BtnWrecked.Name = "BtnWrecked";
-            this.BtnWrecked.Size = new System.Drawing.Size(200, 40);
-            this.BtnWrecked.TabIndex = 2;
-            this.BtnWrecked.Text = "Wrecked";
-            this.BtnWrecked.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnWrecked.UseVisualStyleBackColor = true;
-            this.BtnWrecked.Click += new System.EventHandler(this.BtnWrecked_Click);
-            // 
-            // BtnRunning
-            // 
-            this.BtnRunning.Dock = System.Windows.Forms.DockStyle.Top;
-            this.BtnRunning.Location = new System.Drawing.Point(0, 40);
-            this.BtnRunning.Name = "BtnRunning";
-            this.BtnRunning.Size = new System.Drawing.Size(200, 40);
-            this.BtnRunning.TabIndex = 1;
-            this.BtnRunning.Text = "Running";
-            this.BtnRunning.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnRunning.UseVisualStyleBackColor = true;
-            this.BtnRunning.Click += new System.EventHandler(this.BtnRunning_Click);
+            this.BtnBullPitPartsInventory.Dock = System.Windows.Forms.DockStyle.Top;
+            this.BtnBullPitPartsInventory.Location = new System.Drawing.Point(0, 40);
+            this.BtnBullPitPartsInventory.Name = "BtnBullPitPartsInventory";
+            this.BtnBullPitPartsInventory.Size = new System.Drawing.Size(200, 40);
+            this.BtnBullPitPartsInventory.TabIndex = 1;
+            this.BtnBullPitPartsInventory.Text = "Parts Inventory";
+            this.BtnBullPitPartsInventory.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnBullPitPartsInventory.UseVisualStyleBackColor = true;
+            this.BtnBullPitPartsInventory.Click += new System.EventHandler(this.BtnRunning_Click);
             // 
             // BtnIntake
             // 
@@ -278,6 +266,17 @@
             this.panelChildForm.Size = new System.Drawing.Size(885, 617);
             this.panelChildForm.TabIndex = 1;
             // 
+            // BtnBullPitTotaledInventory
+            // 
+            this.BtnBullPitTotaledInventory.Dock = System.Windows.Forms.DockStyle.Top;
+            this.BtnBullPitTotaledInventory.Location = new System.Drawing.Point(0, 80);
+            this.BtnBullPitTotaledInventory.Name = "BtnBullPitTotaledInventory";
+            this.BtnBullPitTotaledInventory.Size = new System.Drawing.Size(200, 40);
+            this.BtnBullPitTotaledInventory.TabIndex = 2;
+            this.BtnBullPitTotaledInventory.Text = "Totaled Inventory";
+            this.BtnBullPitTotaledInventory.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnBullPitTotaledInventory.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -311,12 +310,12 @@
         private System.Windows.Forms.Button BtnInventoryStore;
         private System.Windows.Forms.Button BtnInventory;
         private System.Windows.Forms.Panel panelBullPitSubMenu;
-        private System.Windows.Forms.Button BtnWrecked;
-        private System.Windows.Forms.Button BtnRunning;
+        private System.Windows.Forms.Button BtnBullPitPartsInventory;
         private System.Windows.Forms.Button BtnIntake;
         private System.Windows.Forms.Button BtnBullPit;
         private System.Windows.Forms.Panel panelChildForm;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button BtnHelp;
+        private System.Windows.Forms.Button BtnBullPitTotaledInventory;
     }
 }
 
