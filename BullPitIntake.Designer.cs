@@ -51,11 +51,11 @@
             this.button1 = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.yearTextBox = new System.Windows.Forms.TextBox();
-            this.totaledComboBox = new System.Windows.Forms.ComboBox();
-            this.partsComboBox = new System.Windows.Forms.ComboBox();
             this.shopDataSet = new CodysShop.ShopDataSet();
             this.customersBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.customersTableAdapter = new CodysShop.ShopDataSetTableAdapters.CustomersTableAdapter();
+            this.totaledComboBox = new System.Windows.Forms.ComboBox();
+            this.partsComboBox = new System.Windows.Forms.ComboBox();
             locationLabel = new System.Windows.Forms.Label();
             vinLabel = new System.Windows.Forms.Label();
             modelLabel = new System.Windows.Forms.Label();
@@ -253,49 +253,6 @@
             this.yearTextBox.Size = new System.Drawing.Size(100, 20);
             this.yearTextBox.TabIndex = 31;
             // 
-            // totaledLabel
-            // 
-            totaledLabel.AutoSize = true;
-            totaledLabel.Location = new System.Drawing.Point(244, 133);
-            totaledLabel.Name = "totaledLabel";
-            totaledLabel.Size = new System.Drawing.Size(46, 13);
-            totaledLabel.TabIndex = 31;
-            totaledLabel.Text = "Totaled:";
-            // 
-            // totaledComboBox
-            // 
-            this.totaledComboBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.wrekerIntakeBindingSource, "Totaled", true));
-            this.totaledComboBox.FormattingEnabled = true;
-            this.totaledComboBox.Items.AddRange(new object[] {
-            "yes",
-            "no"});
-            this.totaledComboBox.Location = new System.Drawing.Point(296, 130);
-            this.totaledComboBox.Name = "totaledComboBox";
-            this.totaledComboBox.Size = new System.Drawing.Size(121, 21);
-            this.totaledComboBox.TabIndex = 32;
-            // 
-            // partsLabel
-            // 
-            partsLabel.AutoSize = true;
-            partsLabel.Location = new System.Drawing.Point(519, 141);
-            partsLabel.Name = "partsLabel";
-            partsLabel.Size = new System.Drawing.Size(34, 13);
-            partsLabel.TabIndex = 32;
-            partsLabel.Text = "Parts:";
-            // 
-            // partsComboBox
-            // 
-            this.partsComboBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.wrekerIntakeBindingSource, "Parts", true));
-            this.partsComboBox.FormattingEnabled = true;
-            this.partsComboBox.Items.AddRange(new object[] {
-            "yes",
-            "no"});
-            this.partsComboBox.Location = new System.Drawing.Point(559, 138);
-            this.partsComboBox.Name = "partsComboBox";
-            this.partsComboBox.Size = new System.Drawing.Size(121, 21);
-            this.partsComboBox.TabIndex = 33;
-            this.partsComboBox.SelectedIndexChanged += new System.EventHandler(this.partsComboBox_SelectedIndexChanged);
-            // 
             // shopDataSet
             // 
             this.shopDataSet.DataSetName = "ShopDataSet";
@@ -309,6 +266,42 @@
             // customersTableAdapter
             // 
             this.customersTableAdapter.ClearBeforeFill = true;
+            // 
+            // totaledLabel
+            // 
+            totaledLabel.AutoSize = true;
+            totaledLabel.Location = new System.Drawing.Point(272, 131);
+            totaledLabel.Name = "totaledLabel";
+            totaledLabel.Size = new System.Drawing.Size(46, 13);
+            totaledLabel.TabIndex = 31;
+            totaledLabel.Text = "Totaled:";
+            // 
+            // totaledComboBox
+            // 
+            this.totaledComboBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.wrekerIntakeBindingSource, "Totaled", true));
+            this.totaledComboBox.FormattingEnabled = true;
+            this.totaledComboBox.Location = new System.Drawing.Point(324, 128);
+            this.totaledComboBox.Name = "totaledComboBox";
+            this.totaledComboBox.Size = new System.Drawing.Size(121, 21);
+            this.totaledComboBox.TabIndex = 32;
+            // 
+            // partsLabel
+            // 
+            partsLabel.AutoSize = true;
+            partsLabel.Location = new System.Drawing.Point(485, 128);
+            partsLabel.Name = "partsLabel";
+            partsLabel.Size = new System.Drawing.Size(34, 13);
+            partsLabel.TabIndex = 32;
+            partsLabel.Text = "Parts:";
+            // 
+            // partsComboBox
+            // 
+            this.partsComboBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.wrekerIntakeBindingSource, "Parts", true));
+            this.partsComboBox.FormattingEnabled = true;
+            this.partsComboBox.Location = new System.Drawing.Point(525, 125);
+            this.partsComboBox.Name = "partsComboBox";
+            this.partsComboBox.Size = new System.Drawing.Size(121, 21);
+            this.partsComboBox.TabIndex = 33;
             // 
             // BullPitIntake
             // 
@@ -349,10 +342,10 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.TextBox yearTextBox;
-        private System.Windows.Forms.ComboBox partsComboBox;
-        private System.Windows.Forms.ComboBox totaledComboBox;
         private ShopDataSet shopDataSet;
         private System.Windows.Forms.BindingSource customersBindingSource;
         private ShopDataSetTableAdapters.CustomersTableAdapter customersTableAdapter;
+        private System.Windows.Forms.ComboBox partsComboBox;
+        private System.Windows.Forms.ComboBox totaledComboBox;
     }
 }

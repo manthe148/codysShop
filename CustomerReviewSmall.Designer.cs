@@ -92,6 +92,186 @@
             ((System.ComponentModel.ISupportInitialize)(this.customersBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
+            // customerIDLabel
+            // 
+            customerIDLabel.AutoSize = true;
+            customerIDLabel.Font = new System.Drawing.Font("Franklin Gothic Medium", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            customerIDLabel.Location = new System.Drawing.Point(13, 13);
+            customerIDLabel.Name = "customerIDLabel";
+            customerIDLabel.Size = new System.Drawing.Size(129, 26);
+            customerIDLabel.TabIndex = 2;
+            customerIDLabel.Text = "Customer ID:";
+            // 
+            // firstNameLabel
+            // 
+            firstNameLabel.AutoSize = true;
+            firstNameLabel.Font = new System.Drawing.Font("Franklin Gothic Medium", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            firstNameLabel.Location = new System.Drawing.Point(26, 39);
+            firstNameLabel.Name = "firstNameLabel";
+            firstNameLabel.Size = new System.Drawing.Size(116, 26);
+            firstNameLabel.TabIndex = 4;
+            firstNameLabel.Text = "First Name:";
+            // 
+            // lastNameLabel
+            // 
+            lastNameLabel.AutoSize = true;
+            lastNameLabel.Font = new System.Drawing.Font("Franklin Gothic Medium", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            lastNameLabel.Location = new System.Drawing.Point(28, 65);
+            lastNameLabel.Name = "lastNameLabel";
+            lastNameLabel.Size = new System.Drawing.Size(114, 26);
+            lastNameLabel.TabIndex = 6;
+            lastNameLabel.Text = "Last Name:";
+            // 
+            // phoneLabel
+            // 
+            phoneLabel.AutoSize = true;
+            phoneLabel.Font = new System.Drawing.Font("Franklin Gothic Medium", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            phoneLabel.Location = new System.Drawing.Point(68, 91);
+            phoneLabel.Name = "phoneLabel";
+            phoneLabel.Size = new System.Drawing.Size(74, 26);
+            phoneLabel.TabIndex = 8;
+            phoneLabel.Text = "Phone:";
+            // 
+            // emailLabel
+            // 
+            emailLabel.AutoSize = true;
+            emailLabel.Font = new System.Drawing.Font("Franklin Gothic Medium", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            emailLabel.Location = new System.Drawing.Point(75, 117);
+            emailLabel.Name = "emailLabel";
+            emailLabel.Size = new System.Drawing.Size(67, 26);
+            emailLabel.TabIndex = 10;
+            emailLabel.Text = "Email:";
+            // 
+            // streetLabel
+            // 
+            streetLabel.AutoSize = true;
+            streetLabel.Font = new System.Drawing.Font("Franklin Gothic Medium", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            streetLabel.Location = new System.Drawing.Point(353, 13);
+            streetLabel.Name = "streetLabel";
+            streetLabel.Size = new System.Drawing.Size(72, 26);
+            streetLabel.TabIndex = 12;
+            streetLabel.Text = "Street:";
+            // 
+            // unitLabel
+            // 
+            unitLabel.AutoSize = true;
+            unitLabel.Font = new System.Drawing.Font("Franklin Gothic Medium", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            unitLabel.Location = new System.Drawing.Point(373, 39);
+            unitLabel.Name = "unitLabel";
+            unitLabel.Size = new System.Drawing.Size(52, 26);
+            unitLabel.TabIndex = 14;
+            unitLabel.Text = "Unit:";
+            // 
+            // cityLabel
+            // 
+            cityLabel.AutoSize = true;
+            cityLabel.Font = new System.Drawing.Font("Franklin Gothic Medium", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            cityLabel.Location = new System.Drawing.Point(373, 65);
+            cityLabel.Name = "cityLabel";
+            cityLabel.Size = new System.Drawing.Size(50, 26);
+            cityLabel.TabIndex = 16;
+            cityLabel.Text = "City:";
+            // 
+            // stateLabel
+            // 
+            stateLabel.AutoSize = true;
+            stateLabel.Font = new System.Drawing.Font("Franklin Gothic Medium", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            stateLabel.Location = new System.Drawing.Point(360, 91);
+            stateLabel.Name = "stateLabel";
+            stateLabel.Size = new System.Drawing.Size(65, 26);
+            stateLabel.TabIndex = 18;
+            stateLabel.Text = "State:";
+            // 
+            // zipLabel
+            // 
+            zipLabel.AutoSize = true;
+            zipLabel.Font = new System.Drawing.Font("Franklin Gothic Medium", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            zipLabel.Location = new System.Drawing.Point(381, 117);
+            zipLabel.Name = "zipLabel";
+            zipLabel.Size = new System.Drawing.Size(44, 26);
+            zipLabel.TabIndex = 20;
+            zipLabel.Text = "Zip:";
+            // 
+            // yearLabel
+            // 
+            yearLabel.AutoSize = true;
+            yearLabel.Font = new System.Drawing.Font("Franklin Gothic Medium", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            yearLabel.Location = new System.Drawing.Point(93, 165);
+            yearLabel.Name = "yearLabel";
+            yearLabel.Size = new System.Drawing.Size(57, 26);
+            yearLabel.TabIndex = 22;
+            yearLabel.Text = "Year:";
+            // 
+            // makeLabel
+            // 
+            makeLabel.AutoSize = true;
+            makeLabel.Font = new System.Drawing.Font("Franklin Gothic Medium", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            makeLabel.Location = new System.Drawing.Point(83, 191);
+            makeLabel.Name = "makeLabel";
+            makeLabel.Size = new System.Drawing.Size(67, 26);
+            makeLabel.TabIndex = 24;
+            makeLabel.Text = "Make:";
+            // 
+            // modelLabel
+            // 
+            modelLabel.AutoSize = true;
+            modelLabel.Font = new System.Drawing.Font("Franklin Gothic Medium", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            modelLabel.Location = new System.Drawing.Point(78, 217);
+            modelLabel.Name = "modelLabel";
+            modelLabel.Size = new System.Drawing.Size(72, 26);
+            modelLabel.TabIndex = 26;
+            modelLabel.Text = "Model:";
+            // 
+            // vinLabel
+            // 
+            vinLabel.AutoSize = true;
+            vinLabel.Font = new System.Drawing.Font("Franklin Gothic Medium", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            vinLabel.Location = new System.Drawing.Point(106, 243);
+            vinLabel.Name = "vinLabel";
+            vinLabel.Size = new System.Drawing.Size(44, 26);
+            vinLabel.TabIndex = 28;
+            vinLabel.Text = "Vin:";
+            // 
+            // mileageLabel
+            // 
+            mileageLabel.AutoSize = true;
+            mileageLabel.Font = new System.Drawing.Font("Franklin Gothic Medium", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            mileageLabel.Location = new System.Drawing.Point(62, 269);
+            mileageLabel.Name = "mileageLabel";
+            mileageLabel.Size = new System.Drawing.Size(88, 26);
+            mileageLabel.TabIndex = 30;
+            mileageLabel.Text = "Mileage:";
+            // 
+            // licensePlateLabel
+            // 
+            licensePlateLabel.AutoSize = true;
+            licensePlateLabel.Font = new System.Drawing.Font("Franklin Gothic Medium", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            licensePlateLabel.Location = new System.Drawing.Point(13, 295);
+            licensePlateLabel.Name = "licensePlateLabel";
+            licensePlateLabel.Size = new System.Drawing.Size(137, 26);
+            licensePlateLabel.TabIndex = 32;
+            licensePlateLabel.Text = "License Plate:";
+            // 
+            // complaintsLabel
+            // 
+            complaintsLabel.AutoSize = true;
+            complaintsLabel.Font = new System.Drawing.Font("Franklin Gothic Medium", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            complaintsLabel.Location = new System.Drawing.Point(302, 165);
+            complaintsLabel.Name = "complaintsLabel";
+            complaintsLabel.Size = new System.Drawing.Size(116, 26);
+            complaintsLabel.TabIndex = 34;
+            complaintsLabel.Text = "complaints:";
+            // 
+            // repairsLabel
+            // 
+            repairsLabel.AutoSize = true;
+            repairsLabel.Font = new System.Drawing.Font("Franklin Gothic Medium", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            repairsLabel.Location = new System.Drawing.Point(63, 327);
+            repairsLabel.Name = "repairsLabel";
+            repairsLabel.Size = new System.Drawing.Size(79, 26);
+            repairsLabel.TabIndex = 36;
+            repairsLabel.Text = "repairs:";
+            // 
             // BtnOk
             // 
             this.BtnOk.DialogResult = System.Windows.Forms.DialogResult.OK;
@@ -101,6 +281,7 @@
             this.BtnOk.TabIndex = 0;
             this.BtnOk.Text = "&Ok";
             this.BtnOk.UseVisualStyleBackColor = true;
+            this.BtnOk.Click += new System.EventHandler(this.BtnOk_Click);
             // 
             // shopDataSet
             // 
@@ -122,16 +303,6 @@
             this.tableAdapterManager.CustomersTableAdapter = this.customersTableAdapter;
             this.tableAdapterManager.UpdateOrder = CodysShop.ShopDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
             // 
-            // customerIDLabel
-            // 
-            customerIDLabel.AutoSize = true;
-            customerIDLabel.Font = new System.Drawing.Font("Franklin Gothic Medium", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            customerIDLabel.Location = new System.Drawing.Point(13, 13);
-            customerIDLabel.Name = "customerIDLabel";
-            customerIDLabel.Size = new System.Drawing.Size(129, 26);
-            customerIDLabel.TabIndex = 2;
-            customerIDLabel.Text = "Customer ID:";
-            // 
             // txtCustomerID
             // 
             this.txtCustomerID.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.customersBindingSource, "CustomerID", true));
@@ -141,16 +312,6 @@
             this.txtCustomerID.Size = new System.Drawing.Size(100, 20);
             this.txtCustomerID.TabIndex = 3;
             // 
-            // firstNameLabel
-            // 
-            firstNameLabel.AutoSize = true;
-            firstNameLabel.Font = new System.Drawing.Font("Franklin Gothic Medium", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            firstNameLabel.Location = new System.Drawing.Point(26, 39);
-            firstNameLabel.Name = "firstNameLabel";
-            firstNameLabel.Size = new System.Drawing.Size(116, 26);
-            firstNameLabel.TabIndex = 4;
-            firstNameLabel.Text = "First Name:";
-            // 
             // txtFirstName
             // 
             this.txtFirstName.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.customersBindingSource, "FirstName", true));
@@ -158,16 +319,6 @@
             this.txtFirstName.Name = "txtFirstName";
             this.txtFirstName.Size = new System.Drawing.Size(100, 20);
             this.txtFirstName.TabIndex = 5;
-            // 
-            // lastNameLabel
-            // 
-            lastNameLabel.AutoSize = true;
-            lastNameLabel.Font = new System.Drawing.Font("Franklin Gothic Medium", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            lastNameLabel.Location = new System.Drawing.Point(28, 65);
-            lastNameLabel.Name = "lastNameLabel";
-            lastNameLabel.Size = new System.Drawing.Size(114, 26);
-            lastNameLabel.TabIndex = 6;
-            lastNameLabel.Text = "Last Name:";
             // 
             // txtLastName
             // 
@@ -177,16 +328,6 @@
             this.txtLastName.Size = new System.Drawing.Size(100, 20);
             this.txtLastName.TabIndex = 7;
             // 
-            // phoneLabel
-            // 
-            phoneLabel.AutoSize = true;
-            phoneLabel.Font = new System.Drawing.Font("Franklin Gothic Medium", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            phoneLabel.Location = new System.Drawing.Point(68, 91);
-            phoneLabel.Name = "phoneLabel";
-            phoneLabel.Size = new System.Drawing.Size(74, 26);
-            phoneLabel.TabIndex = 8;
-            phoneLabel.Text = "Phone:";
-            // 
             // txtEhone
             // 
             this.txtEhone.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.customersBindingSource, "Phone", true));
@@ -194,16 +335,6 @@
             this.txtEhone.Name = "txtEhone";
             this.txtEhone.Size = new System.Drawing.Size(100, 20);
             this.txtEhone.TabIndex = 9;
-            // 
-            // emailLabel
-            // 
-            emailLabel.AutoSize = true;
-            emailLabel.Font = new System.Drawing.Font("Franklin Gothic Medium", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            emailLabel.Location = new System.Drawing.Point(75, 117);
-            emailLabel.Name = "emailLabel";
-            emailLabel.Size = new System.Drawing.Size(67, 26);
-            emailLabel.TabIndex = 10;
-            emailLabel.Text = "Email:";
             // 
             // txtEmail
             // 
@@ -213,16 +344,6 @@
             this.txtEmail.Size = new System.Drawing.Size(100, 20);
             this.txtEmail.TabIndex = 11;
             // 
-            // streetLabel
-            // 
-            streetLabel.AutoSize = true;
-            streetLabel.Font = new System.Drawing.Font("Franklin Gothic Medium", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            streetLabel.Location = new System.Drawing.Point(353, 13);
-            streetLabel.Name = "streetLabel";
-            streetLabel.Size = new System.Drawing.Size(72, 26);
-            streetLabel.TabIndex = 12;
-            streetLabel.Text = "Street:";
-            // 
             // txtStreet
             // 
             this.txtStreet.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.customersBindingSource, "Street", true));
@@ -230,16 +351,6 @@
             this.txtStreet.Name = "txtStreet";
             this.txtStreet.Size = new System.Drawing.Size(100, 20);
             this.txtStreet.TabIndex = 13;
-            // 
-            // unitLabel
-            // 
-            unitLabel.AutoSize = true;
-            unitLabel.Font = new System.Drawing.Font("Franklin Gothic Medium", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            unitLabel.Location = new System.Drawing.Point(373, 39);
-            unitLabel.Name = "unitLabel";
-            unitLabel.Size = new System.Drawing.Size(52, 26);
-            unitLabel.TabIndex = 14;
-            unitLabel.Text = "Unit:";
             // 
             // txtUnit
             // 
@@ -249,16 +360,6 @@
             this.txtUnit.Size = new System.Drawing.Size(100, 20);
             this.txtUnit.TabIndex = 15;
             // 
-            // cityLabel
-            // 
-            cityLabel.AutoSize = true;
-            cityLabel.Font = new System.Drawing.Font("Franklin Gothic Medium", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            cityLabel.Location = new System.Drawing.Point(373, 65);
-            cityLabel.Name = "cityLabel";
-            cityLabel.Size = new System.Drawing.Size(50, 26);
-            cityLabel.TabIndex = 16;
-            cityLabel.Text = "City:";
-            // 
             // txtCity
             // 
             this.txtCity.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.customersBindingSource, "City", true));
@@ -266,16 +367,6 @@
             this.txtCity.Name = "txtCity";
             this.txtCity.Size = new System.Drawing.Size(100, 20);
             this.txtCity.TabIndex = 17;
-            // 
-            // stateLabel
-            // 
-            stateLabel.AutoSize = true;
-            stateLabel.Font = new System.Drawing.Font("Franklin Gothic Medium", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            stateLabel.Location = new System.Drawing.Point(360, 91);
-            stateLabel.Name = "stateLabel";
-            stateLabel.Size = new System.Drawing.Size(65, 26);
-            stateLabel.TabIndex = 18;
-            stateLabel.Text = "State:";
             // 
             // txtState
             // 
@@ -285,16 +376,6 @@
             this.txtState.Size = new System.Drawing.Size(100, 20);
             this.txtState.TabIndex = 19;
             // 
-            // zipLabel
-            // 
-            zipLabel.AutoSize = true;
-            zipLabel.Font = new System.Drawing.Font("Franklin Gothic Medium", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            zipLabel.Location = new System.Drawing.Point(381, 117);
-            zipLabel.Name = "zipLabel";
-            zipLabel.Size = new System.Drawing.Size(44, 26);
-            zipLabel.TabIndex = 20;
-            zipLabel.Text = "Zip:";
-            // 
             // txtZip
             // 
             this.txtZip.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.customersBindingSource, "Zip", true));
@@ -302,16 +383,6 @@
             this.txtZip.Name = "txtZip";
             this.txtZip.Size = new System.Drawing.Size(100, 20);
             this.txtZip.TabIndex = 21;
-            // 
-            // yearLabel
-            // 
-            yearLabel.AutoSize = true;
-            yearLabel.Font = new System.Drawing.Font("Franklin Gothic Medium", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            yearLabel.Location = new System.Drawing.Point(93, 165);
-            yearLabel.Name = "yearLabel";
-            yearLabel.Size = new System.Drawing.Size(57, 26);
-            yearLabel.TabIndex = 22;
-            yearLabel.Text = "Year:";
             // 
             // txtYear
             // 
@@ -321,16 +392,6 @@
             this.txtYear.Size = new System.Drawing.Size(100, 20);
             this.txtYear.TabIndex = 23;
             // 
-            // makeLabel
-            // 
-            makeLabel.AutoSize = true;
-            makeLabel.Font = new System.Drawing.Font("Franklin Gothic Medium", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            makeLabel.Location = new System.Drawing.Point(83, 191);
-            makeLabel.Name = "makeLabel";
-            makeLabel.Size = new System.Drawing.Size(67, 26);
-            makeLabel.TabIndex = 24;
-            makeLabel.Text = "Make:";
-            // 
             // txtMake
             // 
             this.txtMake.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.customersBindingSource, "Make", true));
@@ -338,16 +399,6 @@
             this.txtMake.Name = "txtMake";
             this.txtMake.Size = new System.Drawing.Size(100, 20);
             this.txtMake.TabIndex = 25;
-            // 
-            // modelLabel
-            // 
-            modelLabel.AutoSize = true;
-            modelLabel.Font = new System.Drawing.Font("Franklin Gothic Medium", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            modelLabel.Location = new System.Drawing.Point(78, 217);
-            modelLabel.Name = "modelLabel";
-            modelLabel.Size = new System.Drawing.Size(72, 26);
-            modelLabel.TabIndex = 26;
-            modelLabel.Text = "Model:";
             // 
             // txtModel
             // 
@@ -357,16 +408,6 @@
             this.txtModel.Size = new System.Drawing.Size(100, 20);
             this.txtModel.TabIndex = 27;
             // 
-            // vinLabel
-            // 
-            vinLabel.AutoSize = true;
-            vinLabel.Font = new System.Drawing.Font("Franklin Gothic Medium", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            vinLabel.Location = new System.Drawing.Point(106, 243);
-            vinLabel.Name = "vinLabel";
-            vinLabel.Size = new System.Drawing.Size(44, 26);
-            vinLabel.TabIndex = 28;
-            vinLabel.Text = "Vin:";
-            // 
             // txtVin
             // 
             this.txtVin.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.customersBindingSource, "Vin", true));
@@ -374,16 +415,6 @@
             this.txtVin.Name = "txtVin";
             this.txtVin.Size = new System.Drawing.Size(100, 20);
             this.txtVin.TabIndex = 29;
-            // 
-            // mileageLabel
-            // 
-            mileageLabel.AutoSize = true;
-            mileageLabel.Font = new System.Drawing.Font("Franklin Gothic Medium", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            mileageLabel.Location = new System.Drawing.Point(62, 269);
-            mileageLabel.Name = "mileageLabel";
-            mileageLabel.Size = new System.Drawing.Size(88, 26);
-            mileageLabel.TabIndex = 30;
-            mileageLabel.Text = "Mileage:";
             // 
             // txtMileage
             // 
@@ -393,16 +424,6 @@
             this.txtMileage.Size = new System.Drawing.Size(100, 20);
             this.txtMileage.TabIndex = 31;
             // 
-            // licensePlateLabel
-            // 
-            licensePlateLabel.AutoSize = true;
-            licensePlateLabel.Font = new System.Drawing.Font("Franklin Gothic Medium", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            licensePlateLabel.Location = new System.Drawing.Point(13, 295);
-            licensePlateLabel.Name = "licensePlateLabel";
-            licensePlateLabel.Size = new System.Drawing.Size(137, 26);
-            licensePlateLabel.TabIndex = 32;
-            licensePlateLabel.Text = "License Plate:";
-            // 
             // txtLicensePlate
             // 
             this.txtLicensePlate.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.customersBindingSource, "LicensePlate", true));
@@ -410,16 +431,6 @@
             this.txtLicensePlate.Name = "txtLicensePlate";
             this.txtLicensePlate.Size = new System.Drawing.Size(100, 20);
             this.txtLicensePlate.TabIndex = 33;
-            // 
-            // complaintsLabel
-            // 
-            complaintsLabel.AutoSize = true;
-            complaintsLabel.Font = new System.Drawing.Font("Franklin Gothic Medium", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            complaintsLabel.Location = new System.Drawing.Point(302, 165);
-            complaintsLabel.Name = "complaintsLabel";
-            complaintsLabel.Size = new System.Drawing.Size(116, 26);
-            complaintsLabel.TabIndex = 34;
-            complaintsLabel.Text = "complaints:";
             // 
             // txtComplaints
             // 
@@ -429,16 +440,6 @@
             this.txtComplaints.Name = "txtComplaints";
             this.txtComplaints.Size = new System.Drawing.Size(255, 150);
             this.txtComplaints.TabIndex = 35;
-            // 
-            // repairsLabel
-            // 
-            repairsLabel.AutoSize = true;
-            repairsLabel.Font = new System.Drawing.Font("Franklin Gothic Medium", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            repairsLabel.Location = new System.Drawing.Point(63, 327);
-            repairsLabel.Name = "repairsLabel";
-            repairsLabel.Size = new System.Drawing.Size(79, 26);
-            repairsLabel.TabIndex = 36;
-            repairsLabel.Text = "repairs:";
             // 
             // txtRepairs
             // 

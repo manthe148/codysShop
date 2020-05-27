@@ -32,5 +32,10 @@ namespace CodysShop
             this.customersTableAdapter.Fill(this.shopDataSet.Customers);
 
         }
+
+        private void BtnOk_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace CodysShop
 {
     public partial class BullPitPartInventory : Form
@@ -41,22 +42,19 @@ namespace CodysShop
             {
                 List<WrekerIntake> list = db.WrekerIntakes.ToList();
                 foreach (WrekerIntake w in list)
-
                 {
                     ListViewItem item = new ListViewItem(w.Id.ToString());
                     item.SubItems.Add(w.Year);
                     item.SubItems.Add(w.Make);
                     item.SubItems.Add(w.Model);
                     item.SubItems.Add(w.Parts);
+                    item.SubItems.Add(w.Totaled);
                     listView1.Items.Add(item);
-                }
+                    }
             }
         }
 
-        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
-        {
 
-        }
 
         private async void listView1_ItemActivate(object sender, EventArgs e)
         {

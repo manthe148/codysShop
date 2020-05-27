@@ -103,6 +103,7 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Inventory.cs" />
     <Compile Include="InventoryManagment.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -136,6 +137,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Model1.edmx</DependentUpon>
     </Compile>
+    <Compile Include="PartsInv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PartsInv.Designer.cs">
+      <DependentUpon>PartsInv.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repairs.cs">
@@ -167,6 +174,18 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>ShopInventory.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ShopInv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShopInv.Designer.cs">
+      <DependentUpon>ShopInv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShopSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShopSettings.Designer.cs">
+      <DependentUpon>ShopSettings.cs</DependentUpon>
     </Compile>
     <Compile Include="Table.cs">
       <DependentUpon>Model1.tt</DependentUpon>
@@ -204,6 +223,9 @@
     <EmbeddedResource Include="inventoryStore.resx">
       <DependentUpon>inventoryStore.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="PartsInv.resx">
+      <DependentUpon>PartsInv.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -218,6 +240,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ReviewCustomer.resx">
       <DependentUpon>ReviewCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShopInv.resx">
+      <DependentUpon>ShopInv.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WreckerReview.resx">
+      <DependentUpon>WreckerReview.cs</DependentUpon>
     </EmbeddedResource>
     <EntityDeploy Include="Model1.edmx">
       <Generator>EntityModelCodeGenerator</Generator>

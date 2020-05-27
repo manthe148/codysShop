@@ -125,6 +125,12 @@ namespace CodysShop
 
         #endregion
 
+        private void BtnShopSettings_Click(object sender, EventArgs e)
+        {
+            openChildForm(new ShopSettings());
+            HideSubMenu();
+        }
+
         private Form activeForm = null;
         private void openChildForm(Form childForm)
         {
@@ -145,5 +151,7 @@ namespace CodysShop
         {
 
         }
+
+
     }
 }

@@ -3,13 +3,16 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Printing;
 using System.Linq;
+using System.Security.Authentication.ExtendedProtection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace CodysShop
 {
+
     public partial class BullPitIntake : Form
     {
         public BullPitIntake()
@@ -46,10 +49,10 @@ namespace CodysShop
             this.wrekerIntakeBindingSource.AddNew();
             try
             {
-               // this.wrekerIntakeBindingSource.EndEdit();
-               // this.wrekerIntakeTableAdapter.Update(this.shopDataSet1);
-               // this.wrekerIntakeBindingSource.AddNew();
-               // MessageBox.Show("entered");
+                // this.wrekerIntakeBindingSource.EndEdit();
+                // this.wrekerIntakeTableAdapter.Update(this.shopDataSet1);
+                // this.wrekerIntakeBindingSource.AddNew();
+                // MessageBox.Show("entered");
 
             }
             catch (Exception)
@@ -60,19 +63,11 @@ namespace CodysShop
 
         }
 
-        private void partsCheckBox_CheckedChanged(object sender, EventArgs e)
-        {
 
-        }
 
-        private void partsCheckBox_CheckStateChanged(object sender, EventArgs e)
-        {
 
-        }
 
-        private void partsComboBox_SelectedIndexChanged(object sender, EventArgs e)
-        {
 
-        }
+        
     }
 }
